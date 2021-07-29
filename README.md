@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @krishna-kush
-- 👀 I’m interested in Coding.
+- 👀 I’m interested in (not u).
 - 🌱 I’m currently learning (why tell u).
 - 💞️ I’m looking to collaborate on (nothing).
 - 📫 How to reach me (just die).
