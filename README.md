@@ -1,8 +1,9 @@
 - 👋 Hi, I’m @krishna-kush
-- 👀 I’m interested in (not u).
-- 🌱 I’m currently learning (why tell u).
-- 💞️ I’m looking to collaborate on (nothing).
-- 📫 How to reach me (just die).
+- You Can Know More On => https://krishna-kush.web.app .
+- 👀 I’m interested in Every type Of Development.
+- 🌱 I’m currently learning Gaming Engines.
+- 💞️ I’m looking to collaborate on Interesting And Unique Ideas.
+- 📫 How to reach me Visit My Site => https://krishna-kush.web.app .
 
 <!---
 krishna-kush/krishna-kush is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
