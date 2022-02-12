@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @krishna-kush
-- You Can Know More On => https://krishna-kush.web.app .
+- 🙋‍♂️ You Can Know More Abouot Me On => https://krishna-kush.web.app .
 - 👀 I’m interested in Every type Of Development.
 - 🌱 I’m currently learning Gaming Engines.
 - 💞️ I’m looking to collaborate on Interesting And Unique Ideas.
