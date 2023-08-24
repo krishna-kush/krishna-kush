@@ -7,7 +7,7 @@
 
 
 
-[![Krishna's GitHub stats](https://github-readme-stats.vercel.app/api?username=krishna-kush)](https://github.com/anuraghazra/github-readme-stats)
+[![Krishna's GitHub stats](https://github-readme-stats.vercel.app/api?username=krishna-kush)]
 
 
 <!---
