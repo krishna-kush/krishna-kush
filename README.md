@@ -5,7 +5,14 @@
 - 💞️ I’m looking to collaborate on Interesting And Unique Ideas.
 - 📫 How to reach me? Visit My Site => https://krishna-kush.web.app .
 
+
+
+[![Krishna's GitHub stats](https://github-readme-stats.vercel.app/api?username=krishna-kush)](https://github.com/anuraghazra/github-readme-stats)
+
+
 <!---
 krishna-kush/krishna-kush is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+
