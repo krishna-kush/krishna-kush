@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @krishna-kush
-- 🙋‍♂️ You Can Know More About Me On => https://krishnakush.tech .
-- 👀 I’m interested in Every type Of Development.
-- 🌱 I’m currently learning Gaming Engines.
-- 💞️ I’m looking to collaborate on Interesting And Unique Ideas.
-- 📫 How to reach me? Visit My Site => https://krishnakush.tech .
-
+- 👋 Hi, I’m Krishna.
+- If you want to collaborate or work on webjadugar.com, I'm the person you should look for.
 
 
 [![Krishna's GitHub stats](https://github-readme-stats.vercel.app/api?username=krishna-kush)]()
