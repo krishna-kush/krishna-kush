@@ -1,111 +1,114 @@
-<!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f02038,100:ffb800&height=200&section=header&text=Hey,%20I'm%20Krishna%20👋&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=I%20build%20things%20that%20shouldn't%20fit%20where%20they%20fit&descAlignY=58&descSize=16" alt="Hey, I'm Krishna" />
+  <img src="assets/hero.svg" width="100%" alt="KRISHNA. Phones that code. Binaries that bite. Clouds with wings. A red robot waves hello." />
 </p>
 
-<p align="center">
-  <a href="https://github.com/krishna-kush">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=F02038&center=true&vCenter=true&width=640&lines=AI+agents+that+live+on+your+phone+%F0%9F%93%B1;Licenses+that+bite+back+%F0%9F%94%90;An+open+cloud+anyone+can+join+%E2%98%81%EF%B8%8F;Rust+%E2%80%A2+Kotlin+%E2%80%A2+TypeScript+%E2%80%A2+too+much+coffee+%E2%98%95" alt="Typing intro" />
-  </a>
-</p>
+<h3 align="center">I make things do stuff they're "not supposed to".</h3>
+<p align="center">A phone that writes code. A file that blows itself up. A cloud with wings.<br/>Behind each one is a door. Pick one. 👇</p>
 
-<p align="center">
-  <a href="https://phonecando.app"><img src="https://img.shields.io/badge/phonecando.app-f02038?style=for-the-badge&logo=android&logoColor=white" alt="phonecando.app" /></a>
-  <a href="https://tarf.app"><img src="https://img.shields.io/badge/tarf.app-111111?style=for-the-badge&logo=rust&logoColor=white" alt="tarf.app" /></a>
-  <a href="https://cloudbird.app"><img src="https://img.shields.io/badge/cloudbird.app-0ea5e9?style=for-the-badge&logo=icloud&logoColor=white" alt="cloudbird.app" /></a>
-  <img src="https://komarev.com/ghpvc/?username=krishna-kush&style=for-the-badge&color=ffb800&label=VISITORS" alt="Profile views" />
-</p>
-
----
-
-```console
-$ whoami
-krishna — founder-ish, builder-mostly, the person behind webjadugar.com
-
-$ cat /etc/motd
-I make phones run Linux, binaries refuse to be pirated,
-and clouds that belong to everyone. Sometimes all in the same week.
-```
-
-## 🚀 Things I'm building
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">📱 PhoneCanDo</h3>
-      <p align="center"><b><i>"AI that can use your phone."</i></b></p>
-      <p>Real coding agents running <b>on your Android phone</b>: no PC, no cloud relay, your keys stay on the device.</p>
-      <ul>
-        <li>🤖 A whole crew of agents: our own Resident, Claude Code, Codex, Gemini CLI and more</li>
-        <li>🐧 Each one gets its own Linux, no root needed: apt, git, ssh, tmux, Python</li>
-        <li>👆 Phone control: agents read the screen, tap, type and open apps (locked behind your fingerprint)</li>
-        <li>🧠 Local models through llama.cpp, so prompts never leave the phone</li>
-        <li>📨 Agents message each other, and ⏰ run on a schedule with the screen off</li>
-      </ul>
-      <p align="center">
-        <a href="https://phonecando.app"><b>phonecando.app →</b></a><br/>
-        <a href="https://github.com/krishna-kush/PhoneCanDo"><img src="https://img.shields.io/github/stars/krishna-kush/PhoneCanDo?style=social" alt="Stars" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🔐 Tarf</h3>
-      <p align="center"><b><i>"Licenses that bite back."</i></b></p>
-      <p>A <b>file licensing &amp; protection platform</b>. Upload a binary, set a policy, ship a protected build that checks it's allowed to run, before and while it runs.</p>
-      <ul>
-        <li>🖥️ Hardware-locked: runs only on the machines you allow</li>
-        <li>🔁 Continuous verification, with grace periods for offline use</li>
-        <li>🚫 Revoke any license remotely, instantly</li>
-        <li>💣 Self-destruct: an unauthorized copy shreds itself</li>
-        <li>📊 Analytics: runs, machines, where in the world</li>
-      </ul>
-      <p align="center"><a href="https://tarf.app"><b>tarf.app →</b></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">☁️ CloudBird</h3>
-      <p align="center"><b><i>"World's first Open Cloud."</i></b></p>
-      <p>A cloud that <b>belongs to everyone</b>: anyone can bring a machine and become a provider, and anyone can deploy on it.</p>
-      <ul>
-        <li>🐦 Providers plug their own hardware into the network</li>
-        <li>📦 Deploy apps and containers in a few clicks</li>
-        <li>💻 Code in the browser on your own box</li>
-        <li>🌐 Tunnels and domains handled for you</li>
-      </ul>
-      <p align="center"><a href="https://cloudbird.app"><b>cloudbird.app →</b></a></p>
-    </td>
-  </tr>
-</table>
-
-> 🤝 Want to collaborate, or work on **[webjadugar.com](https://webjadugar.com)**? I'm the person you're looking for. Open an issue on any repo or just say hi.
-
-## 🧰 My toolbox
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,kotlin,ts,react,astro,deno,c,py,docker,linux,nginx,cloudflare&perline=12" alt="Rust, Kotlin, TypeScript, React, Astro, Deno, C, Python, Docker, Linux, Nginx, Cloudflare" />
-  </a>
-</p>
-
-## 📊 Stats, because why not
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=krishna-kush&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=f02038&icon_color=ffb800&text_color=e6e6e6&count_private=true" alt="Krishna's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishna-kush&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f02038&text_color=e6e6e6&langs_count=8" alt="Top languages" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=krishna-kush&hide_border=true&background=0A0A0A&ring=F02038&fire=FFB800&currStreakLabel=F02038&sideLabels=E6E6E6&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=999999" alt="GitHub streak" />
-</p>
-
-<details>
-<summary><b>🎲 Click for random facts</b></summary>
 <br/>
 
-- 🐧 I put a whole Linux inside an Android app, without root, because why should a phone be less than a PC?
-- 🦀 Rust is my comfort food; Kotlin is my day job; TypeScript is everywhere in between.
-- 🪄 *Jadugar* means *magician* in Hindi. The bar is set accordingly.
-- 📜 I also write about the meaning of the Ramcharitmanas at [manaskushartha](https://manaskushartha.hikrishna.me).
+<details>
+<summary><h3>🚪 Door #1: the phone that writes code</h3></summary>
+<br/>
+<p align="center"><a href="https://phonecando.app"><img src="assets/phonecando.svg" width="420" alt="A phone typing out a bug fix while a red robot peeks round it" /></a></p>
+
+**[PhoneCanDo](https://phonecando.app)**: *AI that can use your phone.*
+
+You tell your phone "fix the bug". It clones the repo, edits the files, runs the tests and pushes. Then it asks if you want chai. No PC, no cloud relay, your keys never leave the phone.
+
+<details>
+<summary>🔍 <i>open the toolbox</i></summary>
+<br/>
+
+| | |
+|---|---|
+| 🤖 **A whole crew** | Our own agent, Resident, plus Claude Code, Codex, Gemini CLI and friends, as many at once as your RAM can take |
+| 🐧 **Their own Linux** | Each agent gets a real Linux box with apt, git, ssh, tmux and Python. No root needed. |
+| 👆 **Hands** | Agents read the screen, tap, type and open apps. Your fingerprint arms it. |
+| 🧠 **Offline brains** | Local models through llama.cpp. Your prompts never leave the phone. |
+| 📨 **Office gossip** | Agents message each other and wake each other up. |
+| ⏰ **Night shift** | Schedule a task and it runs with the screen off, the app closed, while you sleep. |
 
 </details>
 
+**→ [phonecando.app](https://phonecando.app)** · [source](https://github.com/krishna-kush/PhoneCanDo)
+
+</details>
+
+<details>
+<summary><h3>🚪 Door #2: the file that blows itself up</h3></summary>
+<br/>
+<p align="center"><a href="https://tarf.app"><img src="assets/tarf.svg" width="420" alt="A pirated game.exe fails its license check, its fuse burns down, and it goes poof" /></a></p>
+
+**[Tarf](https://tarf.app)**: *licenses that bite back.*
+
+Upload your binary, set the rules, and ship a protected build. It checks it's allowed to run, both before it starts and while it's running. Copied to a machine it doesn't know? 💥 It shreds itself.
+
+<details>
+<summary>🔍 <i>open the vault</i></summary>
+<br/>
+
+| | |
+|---|---|
+| 🖥️ **Knows its home** | Locked to the CPU, RAM and MAC of the machines you allow |
+| 🔁 **Never stops checking** | Verifies before and during the run, with grace periods for flaky Wi-Fi |
+| 🚫 **Kill switch** | Revoke any license, anywhere, instantly |
+| 💣 **Self-destruct** | An unauthorized copy deletes itself. Shred or plain delete, your call. |
+| 📊 **Snitch mode** | How often it runs, on which machines, and where in the world |
+
+</details>
+
+**→ [tarf.app](https://tarf.app)**
+
+</details>
+
+<details>
+<summary><h3>🚪 Door #3: the cloud with wings</h3></summary>
+<br/>
+<p align="center"><a href="https://cloudbird.app"><img src="assets/cloudbird.svg" width="420" alt="A blue bird carries a server across the sky while three laptops beam power up into an open cloud" /></a></p>
+
+**[CloudBird](https://cloudbird.app)**: *the world's first Open Cloud.*
+
+Big clouds belong to big companies. This one belongs to everyone. Plug in a machine and you're a provider. Deploy on anyone's machine and you're a customer. The bird carries the servers.
+
+**→ [cloudbird.app](https://cloudbird.app)**
+
+</details>
+
+<details>
+<summary><h3>🚪 Door #4: DO NOT OPEN</h3></summary>
+<br/>
+
+> You opened it. Of course you did.
+>
+> That's exactly the kind of person I want to build with. 🪄
+> I run **[webjadugar.com](https://webjadugar.com)**. *Jadugar* is Hindi for *magician*.
+> If you want to collaborate or make something weird together, I'm the person you're looking for. Open an issue on any repo and say hi.
+
+</details>
+
+<br/>
+
+```text
+┌─ PLAYER 1 ───────────────────────────────────────────
+│  name ........ Krishna
+│  class ....... Jadugar (lvl ∞)
+│  guild ....... webjadugar.com
+│  weapons ..... Rust · Kotlin · TypeScript · C · curl
+│  special ..... makes devices do what they "can't"
+│  weakness .... "just one more feature"
+│  fuel ........ chai ██████████░░ refilling
+└──────────────────────────────────────────────────────
+```
+
+### 🏆 Achievements unlocked
+
+- 🐧 **Root? Never heard of her.** Put a full Linux inside an Android app, no root.
+- 💣 **Mission Impossible.** Taught a binary to delete itself when stolen.
+- 🐦 **Bird is the word.** Gave a cloud wings.
+- 📜 **Side quest.** Writing about the meaning of the Ramcharitmanas at [manaskushartha](https://manaskushartha.hikrishna.me).
+- 🔒 ~~Sleep 8 hours~~ *(locked, 0.3% complete)*
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffb800,100:f02038&height=110&section=footer" alt="" />
+  <img src="https://komarev.com/ghpvc/?username=krishna-kush&style=flat-square&color=f02038&label=you%20are%20visitor%20no." alt="Visitor count" />
 </p>
