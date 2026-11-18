@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/receipt.svg" width="420" alt="A receipt from KRISHNA & CO., makers of things that shouldn't work: a phone that codes (phonecando.app), a file that blows up (tarf.app) and a cloud with wings (cloudbird.app). Paid in coffee." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg" />
+    <img src="assets/receipt-light.svg" width="420" alt="A receipt from KRISHNA & CO., makers of things that shouldn't work: a phone that codes (phonecando.app), a file that blows up (tarf.app) and a cloud with wings (cloudbird.app). Paid in coffee." />
+  </picture>
 </p>
 
 <p align="center">
