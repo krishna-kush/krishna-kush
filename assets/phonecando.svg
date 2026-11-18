@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260" viewBox="0 0 420 260">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+    .l { opacity: 0; animation-duration: 10s; animation-iteration-count: infinite; }
+    .l1 { animation-name: a1; } .l2 { animation-name: a2; } .l3 { animation-name: a3; }
+    .l4 { animation-name: a4; } .l5 { animation-name: a5; } .l6 { animation-name: a6; }
+    @keyframes a1 { 0%, 4% { opacity: 0; } 5%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes a2 { 0%, 17% { opacity: 0; } 18%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes a3 { 0%, 30% { opacity: 0; } 31%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes a4 { 0%, 43% { opacity: 0; } 44%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes a5 { 0%, 56% { opacity: 0; } 57%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes a6 { 0%, 69% { opacity: 0; } 70%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    .tap { transform-box: fill-box; transform-origin: center; animation: tap 2.5s ease-out infinite; }
+    @keyframes tap { 0% { transform: scale(.2); opacity: .9; } 60%, 100% { transform: scale(2.2); opacity: 0; } }
+    .peek { animation: peek 3s ease-in-out infinite; }
+    @keyframes peek { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-10px); } }
+    .eye { transform-box: fill-box; transform-origin: center; animation: eye 3.5s infinite; }
+    @keyframes eye { 0%, 90%, 100% { transform: scaleY(1); } 94% { transform: scaleY(.1); } }
+  </style>
+
+  <rect width="420" height="260" rx="16" fill="#0a0a0a"/>
+
+  <!-- No PC, no relay -->
+  <g stroke="#4a4a4a" stroke-width="2" fill="none">
+    <rect x="40" y="86" width="62" height="40" rx="4"/>
+    <path d="M30 132 h82 l-6 8 h-70 z"/>
+  </g>
+  <g stroke="#f02038" stroke-width="4" stroke-linecap="round">
+    <line x1="48" y1="80" x2="96" y2="140"/>
+    <line x1="96" y1="80" x2="48" y2="140"/>
+  </g>
+  <text x="71" y="168" font-size="12" fill="#e6e6e6" text-anchor="middle">no PC.</text>
+  <text x="71" y="186" font-size="12" fill="#e6e6e6" text-anchor="middle">no relay.</text>
+  <text x="71" y="204" font-size="12" fill="#6b6b6b" text-anchor="middle">keys stay home.</text>
+
+  <!-- The phone -->
+  <rect x="140" y="16" width="140" height="228" rx="22" fill="#141414" stroke="#e6e6e6" stroke-width="3"/>
+  <rect x="190" y="26" width="40" height="6" rx="3" fill="#333"/>
+  <g font-size="10">
+    <text class="l l1" x="152" y="58" fill="#e6e6e6">$ fix the bug pls</text>
+    <text class="l l2" x="152" y="80" fill="#9a9a9a">&gt; reading code</text>
+    <text class="l l3" x="152" y="102" fill="#9a9a9a">&gt; editing 3 files</text>
+    <text class="l l4" x="152" y="124" fill="#9a9a9a">&gt; running tests</text>
+    <text class="l l5" x="152" y="146" fill="#ffb800">+ 42 passed</text>
+    <text class="l l6" x="152" y="168" fill="#f02038">+ pushed. chai?</text>
+  </g>
+  <rect x="152" y="206" width="116" height="24" rx="12" fill="#1f1f1f"/>
+  <text x="166" y="222" font-size="10" fill="#6b6b6b">ask anything...</text>
+  <circle class="tap" cx="252" cy="218" r="10" fill="none" stroke="#ffb800" stroke-width="2"/>
+  <circle cx="252" cy="218" r="7" fill="#f02038"/>
+
+  <!-- A robot peeking round the phone -->
+  <g class="peek">
+    <rect x="292" y="112" width="62" height="54" rx="14" fill="#f02038"/>
+    <rect x="300" y="122" width="46" height="28" rx="7" fill="#0a0a0a"/>
+    <rect class="eye" x="310" y="129" width="8" height="12" rx="2" fill="#ffb800"/>
+    <rect class="eye" x="328" y="129" width="8" height="12" rx="2" fill="#ffb800"/>
+    <circle cx="288" cy="150" r="9" fill="#f02038"/>
+    <line x1="323" y1="112" x2="323" y2="98" stroke="#e6e6e6" stroke-width="2"/>
+    <circle cx="323" cy="95" r="4" fill="#ffb800"/>
+  </g>
+  <text x="323" y="196" font-size="11" fill="#6b6b6b" text-anchor="middle">on it, boss</text>
+</svg>
