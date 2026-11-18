@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260" viewBox="0 0 420 260">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+    .c1 { animation: c1 8s infinite; } .c2 { animation: c2 8s infinite; } .c3 { animation: c3 8s infinite; }
+    .fail { animation: fail 8s infinite; }
+    @keyframes c1 { 0%, 6% { opacity: 0; } 8%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes c2 { 0%, 14% { opacity: 0; } 16%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes c3 { 0%, 22% { opacity: 0; } 24%, 90% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    @keyframes fail { 0%, 27% { opacity: 0; } 28%, 32%, 36%, 90% { opacity: 1; } 30%, 34% { opacity: .2; } 94%, 100% { opacity: 0; } }
+    .file { transform-box: fill-box; transform-origin: center; animation: file 8s infinite; }
+    @keyframes file {
+      0%, 54% { transform: translate(0, 0) scale(1); opacity: 1; }
+      56% { transform: translate(-4px, 1px) rotate(-4deg); }
+      58% { transform: translate(4px, -1px) rotate(4deg); }
+      60% { transform: translate(-4px, 0) rotate(-3deg) scale(1.12); }
+      63%, 92% { transform: scale(0); opacity: 0; }
+      97%, 100% { transform: scale(1); opacity: 1; }
+    }
+    .puff { transform-box: fill-box; transform-origin: center; animation: puff 8s infinite; }
+    @keyframes puff { 0%, 61% { opacity: 0; transform: scale(.2); } 65% { opacity: 1; transform: scale(1); } 80%, 100% { opacity: 0; transform: scale(1.6); } }
+    .poof { animation: poof 8s infinite; }
+    @keyframes poof { 0%, 63% { opacity: 0; } 66%, 86% { opacity: 1; } 90%, 100% { opacity: 0; } }
+  </style>
+
+  <rect width="420" height="260" rx="16" fill="#0a0a0a"/>
+
+  <text x="24" y="36" font-size="13" fill="#6b6b6b">$ ./game.exe</text>
+  <text x="24" y="58" font-size="13" fill="#e6e6e6">checking this machine...</text>
+
+  <!-- Machine fingerprint -->
+  <g font-size="12">
+    <g class="c1"><rect x="24" y="76" width="74" height="24" rx="12" fill="#141414" stroke="#2a2a2a"/><text x="37" y="92" fill="#e6e6e6">CPU <tspan fill="#ffb800">ok</tspan></text></g>
+    <g class="c2"><rect x="24" y="108" width="74" height="24" rx="12" fill="#141414" stroke="#2a2a2a"/><text x="37" y="124" fill="#e6e6e6">RAM <tspan fill="#ffb800">ok</tspan></text></g>
+    <g class="c3"><rect x="24" y="140" width="74" height="24" rx="12" fill="#2a0a0e" stroke="#f02038"/><text x="37" y="156" fill="#e6e6e6">MAC <tspan fill="#f02038">??</tspan></text></g>
+  </g>
+  <text class="fail" x="24" y="196" font-size="14" font-weight="800" fill="#f02038">LICENSE: NOPE</text>
+  <text class="fail" x="24" y="216" font-size="11" fill="#6b6b6b">not your machine, pal</text>
+
+  <!-- The fuse burns down to the file -->
+  <path d="M370 40 C 340 20, 300 30, 290 50 S 262 74, 252 84" fill="none" stroke="#3a2a10" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M370 40 C 340 20, 300 30, 290 50 S 262 74, 252 84" fill="none" stroke="#8a6a2a" stroke-width="3" pathLength="100" stroke-dasharray="100 100">
+    <animate attributeName="stroke-dashoffset" values="0;0;-100;-100" keyTimes="0;0.28;0.54;1" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <g>
+    <circle r="10" fill="#ffb800" opacity=".35"/>
+    <circle r="5" fill="#ffb800"/>
+    <circle r="2" fill="#ffffff"/>
+    <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.28;0.54;1" path="M370 40 C 340 20, 300 30, 290 50 S 262 74, 252 84"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.54;0.55;1" dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- The pirated file -->
+  <g class="file">
+    <path d="M180 84 h56 l24 24 v100 h-80 z" fill="#141414" stroke="#e6e6e6" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M236 84 v24 h24" fill="none" stroke="#e6e6e6" stroke-width="3" stroke-linejoin="round"/>
+    <text x="220" y="150" font-size="12" fill="#e6e6e6" text-anchor="middle">game.exe</text>
+    <text x="220" y="170" font-size="10" fill="#6b6b6b" text-anchor="middle">(pirated)</text>
+  </g>
+
+  <!-- Poof -->
+  <g class="puff">
+    <circle cx="220" cy="146" r="34" fill="#2a2a2a"/>
+    <circle cx="192" cy="130" r="22" fill="#333"/>
+    <circle cx="250" cy="128" r="24" fill="#333"/>
+    <circle cx="206" cy="176" r="20" fill="#262626"/>
+    <circle cx="240" cy="174" r="22" fill="#262626"/>
+    <circle cx="176" cy="104" r="4" fill="#ffb800"/>
+    <circle cx="272" cy="100" r="3" fill="#f02038"/>
+    <circle cx="282" cy="190" r="4" fill="#ffb800"/>
+    <circle cx="164" cy="186" r="3" fill="#f02038"/>
+  </g>
+  <text class="poof" x="220" y="152" font-size="22" font-weight="800" fill="#ffb800" text-anchor="middle">*poof*</text>
+  <text class="poof" x="220" y="236" font-size="11" fill="#6b6b6b" text-anchor="middle">shredded itself. no refunds.</text>
+</svg>
