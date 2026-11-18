@@ -1,11 +1,7 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="KRISHNA. Phones that code. Binaries that bite. Clouds with wings. A red robot waves hello." />
+  <img src="assets/receipt.svg" width="420" alt="A receipt from KRISHNA & CO., makers of things that shouldn't work: a phone that codes (phonecando.app), a file that blows up (tarf.app) and a cloud with wings (cloudbird.app). Paid in coffee." />
 </p>
 
-Hi, I'm Krishna 👋 I make things do stuff they're "not supposed to".
-
-- 📱 **[PhoneCanDo](https://phonecando.app)**: AI coding agents that live on your phone. No PC needed.
-- 🔐 **[Tarf](https://tarf.app)**: licenses for your binaries. Steal one and it deletes itself.
-- 🐦 **[CloudBird](https://cloudbird.app)**: an open cloud. Plug in your machine, deploy on anyone's.
-
-Want to build something weird together? Say hi. 🪄
+<p align="center">
+  📱 <a href="https://phonecando.app">phonecando.app</a> &nbsp;·&nbsp; 🔐 <a href="https://tarf.app">tarf.app</a> &nbsp;·&nbsp; 🐦 <a href="https://cloudbird.app">cloudbird.app</a>
+</p>
