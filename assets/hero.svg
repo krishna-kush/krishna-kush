@@ -1,78 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260">
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
-    .star { animation: tw 3s ease-in-out infinite; }
-    .d1 { animation-delay: 1s; } .d2 { animation-delay: 2s; }
-    @keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
     .cur { animation: blink 1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
-    .typer { animation: type 10s steps(58) infinite; }
-    @keyframes type { 0% { transform: translateX(0); } 55%, 100% { transform: translateX(615px); } }
-    .g1 { animation: g1 4s infinite; } .g2 { animation: g2 4s infinite; }
-    @keyframes g1 { 0%, 90%, 100% { opacity: 0; transform: translate(0, 0); } 92% { opacity: .9; transform: translate(-4px, 2px); } 95% { opacity: .9; transform: translate(3px, -1px); } }
-    @keyframes g2 { 0%, 90%, 100% { opacity: 0; transform: translate(0, 0); } 92% { opacity: .9; transform: translate(4px, -2px); } 95% { opacity: .9; transform: translate(-3px, 1px); } }
     .bob { animation: bob 2.4s ease-in-out infinite; }
     @keyframes bob { 50% { transform: translateY(-7px); } }
     .eye { transform-box: fill-box; transform-origin: center; animation: eye 4s infinite; }
     @keyframes eye { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
     .arm { transform-box: view-box; transform-origin: 822px 142px; animation: wave 1.6s ease-in-out infinite; }
     @keyframes wave { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(28deg); } }
-    .ant { animation: tw 1.2s ease-in-out infinite; }
-    .bubble { animation: bubble 6s infinite; }
-    @keyframes bubble { 0%, 8% { opacity: 0; } 12%, 70% { opacity: 1; } 75%, 100% { opacity: 0; } }
-    .led { animation: tw 1.6s ease-in-out infinite; }
   </style>
 
-  <rect width="880" height="280" rx="18" fill="#0a0a0a"/>
-  <g fill="#ffffff">
-    <circle class="star" cx="520" cy="30" r="1.5"/>
-    <circle class="star d1" cx="610" cy="70" r="1.2"/>
-    <circle class="star d2" cx="460" cy="90" r="1"/>
-    <circle class="star d1" cx="850" cy="40" r="1.5"/>
-    <circle class="star" cx="660" cy="250" r="1.2"/>
-    <circle class="star d2" cx="380" cy="40" r="1.2"/>
-    <circle class="star d1" cx="860" cy="200" r="1"/>
-  </g>
+  <rect width="880" height="260" rx="18" fill="#0a0a0a"/>
 
-  <text x="40" y="50" font-size="14" fill="#6b6b6b">~/krishna $ ./hello --loud</text>
-
-  <!-- Name, with a glitch now and then -->
-  <text class="g1" x="38" y="128" font-size="72" font-weight="800" letter-spacing="4" fill="#f02038">KRISHNA</text>
-  <text class="g2" x="38" y="128" font-size="72" font-weight="800" letter-spacing="4" fill="#ffb800">KRISHNA</text>
-  <text x="38" y="128" font-size="72" font-weight="800" letter-spacing="4" fill="#ffffff">KRISHNA<tspan fill="#f02038">.</tspan></text>
-
-  <!-- Typed line: a cover slides right one letter at a time -->
-  <text x="40" y="170" font-size="17" fill="#e6e6e6">&gt; phones that code. binaries that bite. clouds with wings.</text>
-  <g class="typer">
-    <rect x="38" y="150" width="640" height="28" fill="#0a0a0a"/>
-    <rect class="cur" x="38" y="155" width="10" height="20" fill="#f02038"/>
-  </g>
-
-  <!-- Status lights -->
-  <g font-size="13">
-    <rect x="40" y="212" width="214" height="30" rx="15" fill="#141414" stroke="#2a2a2a"/>
-    <circle class="led" cx="58" cy="227" r="5" fill="#f02038"/>
-    <text x="72" y="232" fill="#e6e6e6">phonecando.app <tspan fill="#6b6b6b">online</tspan></text>
-    <rect x="266" y="212" width="180" height="30" rx="15" fill="#141414" stroke="#2a2a2a"/>
-    <circle class="led d1" cx="284" cy="227" r="5" fill="#ffb800"/>
-    <text x="298" y="232" fill="#e6e6e6">tarf.app <tspan fill="#6b6b6b">guarding</tspan></text>
-    <rect x="458" y="212" width="200" height="30" rx="15" fill="#141414" stroke="#2a2a2a"/>
-    <circle class="led d2" cx="476" cy="227" r="5" fill="#38bdf8"/>
-    <text x="490" y="232" fill="#e6e6e6">cloudbird.app <tspan fill="#6b6b6b">flying</tspan></text>
-  </g>
-
-  <!-- Speech bubble -->
-  <g class="bubble">
-    <rect x="640" y="22" width="158" height="34" rx="10" fill="#ffb800"/>
-    <path d="M730 56 l10 12 l4 -12 z" fill="#ffb800"/>
-    <text x="654" y="44" font-size="14" font-weight="700" fill="#0a0a0a">beep. hi there!</text>
-  </g>
+  <text x="40" y="74" font-size="14" fill="#6b6b6b">~/krishna $ ./hello</text>
+  <text x="38" y="150" font-size="72" font-weight="800" letter-spacing="4" fill="#ffffff">KRISHNA<tspan fill="#f02038">.</tspan></text>
+  <text x="40" y="194" font-size="17" fill="#e6e6e6">&gt; phones that code. binaries that bite. clouds with wings.<tspan class="cur" fill="#f02038"> █</tspan></text>
 
   <!-- The robot -->
   <ellipse cx="760" cy="246" rx="70" ry="7" fill="#1a1a1a"/>
   <g class="bob">
     <line x1="760" y1="90" x2="760" y2="70" stroke="#e6e6e6" stroke-width="3"/>
-    <circle class="ant" cx="760" cy="66" r="7" fill="#ffb800"/>
+    <circle cx="760" cy="66" r="7" fill="#ffb800"/>
     <g class="arm"><rect x="815" y="82" width="14" height="62" rx="7" fill="#f02038"/></g>
     <rect x="688" y="140" width="14" height="44" rx="7" fill="#f02038"/>
     <rect x="700" y="90" width="120" height="110" rx="24" fill="#f02038"/>
